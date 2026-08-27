@@ -3,7 +3,7 @@
     box-sizing: border-box;
 }
 
-body {
+body{
     margin: 0;
     padding: 0;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -26,11 +26,9 @@ body {
 }
 
 .menu a{
-    color: rgb(13, 13, 163);
-    text-decoration: none;
+    color: rgb(255, 255, 255);
     margin-left: 20px;
-    font-weight: bold;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: Arial, Helvetica, sans-serif;
     transition: color 0.6s ease;
 }
 .container{
@@ -122,4 +120,69 @@ body {
 }
 .botao-compra:hover{
     background-color: rgb(24, 2, 150);
+}
+.area-inscricao{
+    display: flex;
+    gap: 30px;
+    align-items: flex-start;
+}
+.coluna-form{
+    flex: 1;
+    min-width: 320px;
+    background-color: #986262;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px #121111;
+}
+.coluna-midia{
+    flex: 1;
+    min-width: 320px;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+.coluna-form label{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #400707;
+}
+.coluna-form input[type="text"],
+.coluna-form input[type="password"],
+.coluna-form input[type="email"],
+.coluna-form input[type="date"],
+.coluna-form select{
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    background-color: #671212;
+    color: aliceblue;
+    font-size: 14px;
+}
+.btn-enviar{
+    background-color: #3a14fb;
+    color: aliceblue;
+    border: none;
+    padding: 12px;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.btn-enviar:hover{
+    background-color: rgb(4, 202, 80);
+}
+
+.btn-limpar{
+    background-color: #3a14fb;
+    color: aliceblue;
+    border: none;
+    padding: 12px;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 10px;
+}
+.btn-limpar:hover{
+    background-color: rgb(202, 4, 4);
 }

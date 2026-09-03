@@ -186,3 +186,59 @@ body{
 .btn-limpar:hover{
     background-color: rgb(202, 4, 4);
 }
+.titulos{
+    font-size: 20px;
+    color: #f5f7f6;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: #753333;
+}
+.tabela-cardapio{
+    width: 80%;
+    border-radius: 10px;
+}
+.preco{
+    width: 100%;
+    background-color: #f7f2f2;
+    text-align: left;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.preco th{
+    background-color: #d16d6d;
+    color: #400707;
+    padding: 14px;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-bottom: 4px solid #600000;
+}
+
+.preco td{
+    padding: 16px 20px;
+    border-bottom: 1px solid #600000;
+    color: #000000;
+}
+
+.tabela-precos{
+    width: 80%;
+    border-radius: 10px;
+}
+.tabela{
+    width: 100%;
+    background-color: #f7f5f5;
+    text-align: left;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.tabela th{
+   background-color: #d16d6d;
+    color: #400707;
+    padding: 14px;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-bottom: 4px solid #600000; 
+}
